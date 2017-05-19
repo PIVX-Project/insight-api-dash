@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-dash",
-  "description": "A Dash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-pivx",
+  "description": "A PIVX blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.5",
-  "repository": "git://github.com/dashpay/insight-api-dash.git",
+  "repository": "git://github.com/PIVX-Project/insight-api-pivx.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashpay/insight-api-dash/issues"
+    "url": "https://github.com/PIVX-Project/insight-api-pivx.git/issues"
   },
-  "homepage": "https://github.com/dashpay/insight-api-dash",
+  "homepage": "https://github.com/PIVX-Project/insight-api-pivx.git",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "pivx api",
     "blockchain api",
     "json",
-    "bitcore-dash"
+    "bitcore-pivx"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,11 +61,11 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.13.20",
-    "bitcore-message-dash": "^1.0.5",
+    "bitcore-lib-pivx": "^0.13.20",
+    "bitcore-message-pivx": "^1.0.5",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
-    "lodash": "^2.4.1",
+    "lopivx": "^2.4.1",
     "lru-cache": "^4.0.1",
     "morgan": "^1.7.0",
     "request": "^2.64.0"
