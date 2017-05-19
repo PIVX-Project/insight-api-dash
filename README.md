@@ -264,7 +264,7 @@ POST params:
 addrs: 2NF2baYuJAkCKo5onjUKEPdARQkZ6SYyKd5,2NAre8sX2povnjy4aeiHKeEh97Qhn97tB1f
 ```
 
-### InstantSend Transactions
+### SwiftTX Transactions
 If a Transaction Lock has been observed by Insight API a 'txlock' value of true will be included in the Transaction Object.
 
 Sample output:
@@ -497,7 +497,7 @@ Sample output:
 }
 ```
 
-`txlock`: InstantSend transaction received from network, this event is published alongside the 'tx' event when a transaction lock event occurs. Data will be a app/models/Transaction object.
+`txlock`: SwiftTX transaction received from network, this event is published alongside the 'tx' event when a transaction lock event occurs. Data will be a app/models/Transaction object.
 Sample output:
 ```
 {
@@ -555,7 +555,7 @@ html
     })
     socket.on(eventToListenTo, function(data) {
       if (data.txlock) {
-        console.log("New InstantSend transaction received: " + data.txid)
+        console.log("New SwiftTX transaction received: " + data.txid)
       } else {
         console.log("New transaction received: " + data.txid)
       }
